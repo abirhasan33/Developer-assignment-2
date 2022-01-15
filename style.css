@@ -234,6 +234,7 @@ footer{
 
 
 @media only screen and (max-width:688px){
+    
     nav, a{
         display: grid;
         border-bottom:4px solid green ;
@@ -247,10 +248,12 @@ footer{
     }
     .icon{
         display: inline;
-        padding-left: 20%;
+        margin-left: 20%;
+        margin-bottom: 10%;
+        padding-left: 30%;
     }
     .abir{
-        padding-top: 20%;
+        padding-top: 30%;
         text-align: center;
     }
     .login-form{
@@ -289,6 +292,10 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
     }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
     .courses, .icons{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -297,6 +304,10 @@ footer{
         display: inline;
         background-repeat: no-repeat;
         text-align: center;    
+    }
+    .abir{
+        padding-top: 20%;
+        text-align: center;
     }
     
 

@@ -52,6 +52,7 @@ main{
     width: 350px;
 }
 .titel{
+    display: inline;
     font-size: 30px;
 }
 .btn{
